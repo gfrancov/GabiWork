@@ -48,21 +48,36 @@
                             <h2 class="display-4">Gabi Franco</h2>
                             <p>¡Hola! Mi nombre es Gabriel Franco, pero todo el mundo me llama Gabi. Especializado en la administración de sistemas: redes, ciberseguridad y datos.</p>
                             <p class="font-weight-bold mb-0">Enfocado en esto 👇</p>
-                            <section class="logo-list">
+                            <section class="logo-list mb-4" id="logos-front">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-4 col-12">
+                                        <div class="col-lg-4 col-md-4 col-4">
                                             <a class="scrollto" href="#generalitat"><img src="{{asset('assets/img/gencat.png')}}" class="img-fluid" alt="Generalitat de Catalunya" /></a>
                                         </div>
-                                        <div class="col-lg-4 col-md-4 col-12">
+                                        <div class="col-lg-4 col-md-4 col-4">
                                             <a href="#linux"><img src="{{asset('assets/img/linuxinstitute.png')}}" class="img-fluid" alt="Linux Professional Institute" /></a>
                                         </div>
-                                        <div class="col-lg-4 col-md-4 col-12">
+                                        <div class="col-lg-4 col-md-4 col-4">
                                             <a href="#cableando"><img src="{{asset('assets/img/cableando.png')}}" class="img-fluid" alt="Cableando" /></a>
                                         </div>
                                     </div>
                                 </div>
                             </section>
+                            <ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 mt-3 d-lg-flex justify-content-center">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/gfrancov/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li class="list-inline-item">
+                                    <a href="https://github.com/gfrancov" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/gabiCaotico" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class="list-inline-item">
+                                    <a href="mailto:jo@gabrielfranco.me"><i class="fa-solid fa-envelope"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="tel:611475442" target="_blank"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
