@@ -13,4 +13,12 @@ class ViewsController extends Controller
         ));
 
     }
+
+    public function carta() {
+
+        return view('carta', array(
+            'title' => 'Carta de presentació'
+        ));
+
+    }
 }

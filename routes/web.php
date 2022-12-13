@@ -15,4 +15,6 @@ use App\Http\Controllers\ViewsController;
 */
 
 Route::get('/', [ViewsController::class, 'home']);
+Route::get('/carta', [ViewsController::class, 'carta']);
+
 
